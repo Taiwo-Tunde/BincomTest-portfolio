@@ -22,6 +22,7 @@ blockquote {
 body {
   max-width: 1200px;
   margin: 0 50px 0 50px;
+  transition: opacity 2s ease-in;
 }
 
 .grid-container {
@@ -129,4 +130,54 @@ a:active {
   background-color: wheat;
   height: 100px;
   width: 150px;
+}
+
+/* service section */
+
+.service-section-container {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+
+.service-section-sub-container {
+  display: flex;
+}
+
+/* skills section */
+
+.skill-list {
+  display: flex;
+}
+
+/* photo story */
+
+.photo-story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: #f2f3f7;
+  transition: opacity 2s ease-in;
+}
+
+.carousel img {
+  display: none;
+  width: 70%;
+  height: 70%;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.carousel img.active {
+  display: block;
 }
