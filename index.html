@@ -34,20 +34,20 @@
                     <li>
                       <a href="#" data-nav-section="home">Home</a>
                     </li>
-                    <li><a href="#" data-nav-section="about">About</a></li>
+                    <li><a href="#about" data-nav-section="about">About</a></li>
                     <li>
-                      <a href="#" data-nav-section="services">Services</a>
+                      <a href="#service" data-nav-section="services">Services</a>
                     </li>
-                    <li><a href="#" data-nav-section="skills">Skills</a></li>
+                    <li><a href="#skills" data-nav-section="skills">Skills</a></li>
                     <li>
-                      <a href="#" data-nav-section="education">Education</a>
+                      <a href="#education" data-nav-section="education">Education</a>
                     </li>
                     <li>
-                      <a href="#" data-nav-section="experience">Experience</a>
+                      <a href="#experience" data-nav-section="experience">Experience</a>
                     </li>
-                    <li><a href="#" data-nav-section="work">Photo Story</a></li>
-                    <li><a href="#" data-nav-section="blog">Blog</a></li>
-                    <li><a href="#" data-nav-section="contact">Contact</a></li>
+                    <li><a href="#photo" data-nav-section="work">Photo Story</a></li>
+                    <li><a href="#blog" data-nav-section="blog">Blog</a></li>
+                    <li><a href="#contact" data-nav-section="contact">Contact</a></li>
                   </ul>
                 </div>
               </nav>
@@ -76,21 +76,19 @@
               Hi! <br />
               I'm <br />Taiwo Tunde
             </h1>
-            <p><a href="/Resources/Taiwo Tunde CV.pdf">Download My CV</a></p>
-          </div>
-
-          <div class="home_section2">
-            <h1>A Software Engineer</h1>
+             <h1>A Software Engineer</h1>
             <p>
               <a href="https://taiwo-tunde.github.io/My-portfolio/#"
                 >View Portfolio
               </a>
             </p>
+            <p><a href="/Resources/Taiwo Tunde CV.pdf">Download My CV</a></p>
           </div>
 
+          
           <!-- About section  -->
 
-          <section>
+          <section id="about">
             <div>
               <span>About Us</span>
               <h2>Who Am I?</h2>
@@ -187,136 +185,163 @@
 
           <!-- service section -->
 
-          <section class="service-section-container">
+          <section id="service" class="service-section-container">
+
             <h2>what i do</h2>
             <h2>Here are some of my expertise</h2>
             <div class="service-section-sub-container">
-              <div>
-                <h3>Research</h3>
-                <p>
-                  Having a good knowledge of a problem is the key to find the
-                  solution
-                </p>
-              </div>
 
-              <div>
-                <h3>Software</h3>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics
-                </p>
-              </div>
+                  <div class="service-item">
+                    <h3>Research</h3>
+                    <p>
+                      Having a good knowledge of a problem is the key to find the
+                      solution
+                    </p>
+                  </div>
 
-              <div>
-                <h3>Application</h3>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics
-                </p>
-              </div>
-              <div>
-                <h3>Graphic Design</h3>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics
-                </p>
-              </div>
+                  <div class="service-item">
+                    <h3>Software</h3>
+                    <p>
+                      Separated they live in Bookmarksgrove right at the coast of
+                      the Semantics
+                    </p>
+                  </div>
 
-              <div>
-                <h3>Software</h3>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics
-                </p>
-              </div>
-
-              <div>
-                <h3>Application</h3>
-                <p>
-                  Separated they live in Bookmarksgrove right at the coast of
-                  the Semantics
-                </p>
-              </div>
-            </div>
+                  <div class="service-item">
+                    <h3>Application</h3>
+                    <p>
+                      Separated they live in Bookmarksgrove right at the coast of
+                      the Semantics
+                    </p>
+                  </div>
+          </div>
           </section>
 
           <!-- skills section -->
-          <section>
+          <section id="skills" class="skills" >
             <h2>My Specialty</h2>
             <h3>My Skills</h3>
-            <div class="skill-list">
-              <div>
-                <h3>HTML5</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>CSS3</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>Bootstrap</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>javaScript</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>React</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>React Native</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>Node JS</h3>
-                <span>logo</span>
-              </div>
-              <div>
-                <h3>Express</h3>
-                <span>logo</span>
-              </div>
+
+            <div class="skill-list-container">
+              <div class="list1">
+                    <div>
+                      <h3>HTML5</h3>
+                      <span>logo</span>
+                    </div>
+
+                    <div>
+                      <h3>CSS3</h3>
+                      <span>logo</span>
+                    </div>
+              </div>   
+
+           <div class="list2">    
+                  <div>
+                    <h3>Bootstrap/Tailwind</h3>
+                    <span>logo</span>
+                  </div>
+
+                  <div>
+                    <h3>javaScript</h3>
+                    <span>logo</span>
+                  </div>
+            </div> 
+
+             <div class="list3">
+                 <div>
+                    <h3>React</h3>
+                    <span>logo</span>
+                </div>
+
+                  <div>
+                    <h3>React Native</h3>
+                    <span>logo</span>
+                  </div>
+            </div>
+
+            <div class="list4">
+                  <div>
+                    <h3>Node JS</h3>
+                    <span>logo</span>
+                  </div>
+
+                  <div>
+                    <h3>Express</h3>
+                    <span>logo</span>
+                  </div>
+            </div>
+       <div class="list5">
               <div>
                 <h3>MongoDB</h3>
                 <span>logo</span>
               </div>
+
               <div>
                 <h3>Docker</h3>
                 <span>logo</span>
               </div>
-              <div>
-                <h3>RESTFul API</h3>
-                <span>logo</span>
-              </div>
+       </div>
+        
+             <div class="list6">
+                <div>
+                  <h3>RESTFul API</h3>
+                  <span>logo</span>
+                </div>
+                  <div>
+                  <h3>MYSQL</h3>
+                  <span>logo</span>
+                </div>
+            </div>  
+
+         
+
+          
             </div>
           </section>
 
           <!-- Educational section -->
-          <section>
-            <div>
-              <h3>Bachelor degree in Computer Engineering</h3>
-              <h3>Course: Computer Engineering</h3>
-              <h3>Institution: Olabisi Onabanjo University</h3>
-              <h3>Year: 2022</h3>
-            </div>
-            <div>
-              <h3>National Diploma in Computer Engineering</h3>
-              <h3>Course: Computer Engineering</h3>
-              <h3>Institution: Federal Polytechnic Ilaro</h3>
-              <h3>Year: 2016</h3>
+          <section id="education" class="educational-section">
+            <h1>Educational Background</h1>
+            <div class="collapsible">
+              <button class="collapsible-trigger my-button">
+                Bachelor Degree in Computer Engineering
+              </button>
+              <div class="collapsible-content">
+                <h3>Bachelor degree in Computer Engineering</h3>
+                <h3>Course: Computer Engineering</h3>
+                <h3>Institution: Olabisi Onabanjo University</h3>
+                <h3>Year: 2022</h3>
+              </div>
             </div>
 
-            <div>
-              <h3>Diploma in Software Engineering</h3>
+            <div class="collapsible">
+              <button class="collapsible-trigger my-button">
+                ND in Computer Engineering
+              </button>
+              <div class="collapsible-content">
+                <h3>National Diploma in Computer Engineering</h3>
+                <h3>Course: Computer Engineering</h3>
+                <h3>Institution: Federal Polytechnic Ilaro</h3>
+                <h3>Year: 2016</h3>
+              </div>
+            </div>
+
+
+       <div class="collapsible">
+  <button class="collapsible-trigger my-button">Full Stack JavaScript Web Development</button>
+  <div class="collapsible-content">
+  <h3>Diploma in Software Engineering</h3>
               <h3>Course: Full Stack javaScript Web Development(MERN Stack)</h3>
               <h3>Institution: GOMYCODE</h3>
               <h3>Year: 2021</h3>
-            </div>
+  </div>
+
           </section>
 
+          
+
           <!-- Experience Section -->
-          <section>
+          <section id="experience" >
             <div>
               <h2>IT Support <span>January 2016 - January 2017</span></h2>
               <span>Betking Ogun State, Nigeria</span>
@@ -393,7 +418,7 @@
           </section>
 
           <!-- Photo story section -->
-          <section class="photo-story-container">
+          <section id="photo" class="photo-story-container">
             <h1 style="text-align: center; size: 50px">Photo Story</h1>
             <div class="carousel">
               <img
@@ -437,6 +462,66 @@
                 src="/Resources/PXL_20220126_084322298.NIGHT (1).png"
                 alt="pic"
               />
+            </div>
+          </section>
+
+          <!-- contact section -->
+
+          <section class="contact" id="contact">
+            <div>
+              <center>
+                <h1><strong> CONTACT </strong></h1>
+              </center>
+            </div>
+            <div class="contact-section">
+              <div class="contact-links">
+                <div>
+                  <i class="fa fa-phone"></i>
+                  <a href="tel://+2348131384383">+2348131384383</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <a href="https://wa.me/message/PEQAGNBS4VXQJ1">Whatsapp Me</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-envelope"></i>
+                  <a href="mailto:taiwotunde32@gmail.com ">E-mail Me on</a>
+                </div>
+                <div>
+                  <i class="fa-brands fa-twitter"></i>
+                  <a
+                    href="https://twitter.com/rashy606?t=NbGyMrcWqnhuxeRNX9Hzw&s=09"
+                    >Reach out to Me on twitter</a
+                  >
+                </div>
+              </div>
+
+              <div>
+                <form class="forms-link">
+                  <label for="name"> Full Name</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your full name"
+                    id="name"
+                  />
+                  <br />
+                  <label for="Email">E-mail</label>
+                  <input
+                    type="email"
+                    placeholder="Enter your E-mail"
+                    id="E-mail"
+                  />
+
+                  <br />
+                  <label for="message" id="message"> Message Us</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your message"
+                    id="message"
+                    style="height: 200px"
+                  />
+                </form>
+              </div>
             </div>
           </section>
         </div>

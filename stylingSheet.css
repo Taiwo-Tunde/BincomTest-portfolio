@@ -137,17 +137,94 @@ a:active {
 .service-section-container {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  background-color: #f2f3f7;
+  padding: 20px;
 }
 
 .service-section-sub-container {
   display: flex;
+  flex-direction: row;
+
+  border-bottom: 2px solid black;
+  background-color: wheat;
+  height: 100px;
+  width: 150px;
 }
 
+.service-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f3f7;
+  border: 2px solid black;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
 /* skills section */
 
-.skill-list {
+.skills {
   display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.skill-list-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.list1,
+.list2,
+.list3,
+.list4,
+.list5,
+.list6 {
+  padding: 20px;
+  border: 2px solid wheat;
+  height: 100px;
+  background-color: #37393b;
+}
+
+/* educaton section */
+
+.collapsible-content {
+  display: none; /* Hide the content initially */
+}
+
+.collapsible-trigger {
+  cursor: pointer;
+}
+
+.educational-section {
+  background-color: aliceblue;
+  padding: 20px 0 20px 0;
+}
+
+.collapsible-trigger {
+  background-color: #f2f3f7;
+  color: #333333;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 800px;
+  margin: 5px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.my-button:hover {
+  background-color: #45a049;
+}
+
+.my-button:active {
+  background-color: #3e8e41;
 }
 
 /* photo story */
@@ -180,4 +257,47 @@ a:active {
 
 .carousel img.active {
   display: block;
+}
+
+/* contact section */
+
+.contact {
+  background-color: #031729;
+  color: #fff;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.forms-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-links {
+    margin: 10px 0;
+    padding: 20px 0;
+  }
+  .forms-link {
+    display: flex;
+    flex-direction: column;
+    padding: 0 auto;
+  }
 }

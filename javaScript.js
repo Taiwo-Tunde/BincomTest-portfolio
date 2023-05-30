@@ -28,7 +28,7 @@ function showNext() {
 
 // Function to start the automatic slide transition
 function startCarousel() {
-  setInterval(showNext, 3000); // Change slide every 3 seconds (adjust as needed)
+  setInterval(showNext, 2000); // Change slide every 3 seconds (adjust as needed)
 }
 
 // Show the initial image
@@ -36,3 +36,18 @@ showImage(currentIndex);
 
 // Start the automatic slide transition
 startCarousel();
+
+// education section
+
+const triggers = document.querySelectorAll(".collapsible-trigger");
+
+// Function to toggle the visibility of the collapsible content
+function toggleContent() {
+  const content = this.nextElementSibling;
+  content.style.display = content.style.display === "none" ? "block" : "none";
+}
+
+// Attach click event listeners to the trigger elements
+triggers.forEach((trigger) => {
+  trigger.addEventListener("click", toggleContent);
+});
