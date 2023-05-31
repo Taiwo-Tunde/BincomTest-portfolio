@@ -53,3 +53,6 @@ triggers.forEach((trigger) => {
 });
 
 // Handling scrolling and transition
+
+var x = document.getElementsByClassName("aside_content2");
+console.log(x);

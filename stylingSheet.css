@@ -18,8 +18,8 @@ blockquote {
 }
 li,
 h3 {
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
 }
 /* layout */
 
@@ -44,8 +44,6 @@ body {
 }
 
 .container1 {
-  background-color: #f2f3f7;
-  position: fixed;
   width: 27%;
 }
 
@@ -67,6 +65,9 @@ body .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  background-color: rgb(163, 172, 172);
+  color: #f2f3f7;
 }
 
 .aside_content1 {
@@ -186,6 +187,7 @@ a:active {
   align-items: flex-start;
   justify-content: flex-start;
   margin-left: 0;
+  background-color: #f2f3f7;
 }
 
 .grid-container-skills {
@@ -315,6 +317,22 @@ a:active {
 }
 
 @media screen and (max-width: 960px) {
+  .main-container {
+    .grid-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .aside_content1,
+    .copyright {
+      display: none;
+      float: left;
+    }
+
+    .aside_container {
+      background-color: #f2f2f2;
+    }
+  }
   .contact-section {
     display: flex;
     flex-direction: column;
