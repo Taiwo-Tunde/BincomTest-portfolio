@@ -20,24 +20,27 @@ blockquote {
 /* layout */
 
 body {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 50px 0 50px;
-  transition: opacity 2s ease-in;
+  transition: opacity 5s ease-in;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 30% 70%;
+  transition: opacity 5s ease-in-out;
 }
 
 .container1 {
   background-color: #f2f3f7;
   position: fixed;
   width: 27%;
+  transition: opacity 5s ease-out;
 }
 
 .container2 {
   width: 100%;
+  float: right;
 }
 
 /* styling for aside container and its content*/
@@ -162,29 +165,26 @@ a:active {
   padding: 20px;
 }
 /* skills section */
-
 .skills {
   display: flex;
   flex-direction: column;
-  margin: 100px;
+  margin-top: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.skill-list-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.grid-container-skills {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70%;
+  margin: 0 auto; /* Center the container */
+  gap: 10px; /* Adjust the gap between grid items as needed */
 }
 
-.list1,
-.list2,
-.list3,
-.list4,
-.list5,
-.list6 {
-  padding: 20px;
-  border: 2px solid wheat;
-  height: 100px;
-  background-color: #37393b;
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
 }
 
 /* educaton section */
