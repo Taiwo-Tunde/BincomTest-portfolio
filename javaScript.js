@@ -54,10 +54,10 @@ triggers.forEach((trigger) => {
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
 function myFunction() {
-  var myLink = document.getElementById("myLinks");
+  var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
-    myLink.style.display = "none";
+    x.style.display = "none";
   } else {
-    myLink.style.display = "block";
+    x.style.display = "block";
   }
 }
