@@ -47,7 +47,7 @@ body {
 body .container {
   height: 100%;
   margin-left: 100px;
-  background-image: url(/Resources/image1.jpg);
+  background-image: url(/image1.jpg);
   background-repeat: no-repeat;
 }
 .aside_container {
