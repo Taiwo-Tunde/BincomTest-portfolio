@@ -68,10 +68,6 @@ body {
   border-radius: 100px;
 }
 
-/* .topnav {
-  display: none;
-} */
-
 ul {
   list-style: none;
   padding: 0;
@@ -79,7 +75,7 @@ ul {
 }
 
 a {
-  color: rgba(8, 6, 6, 0.96); /* Set the text color */
+  color: rgba(8, 6, 6, 0.96);
   text-decoration: none;
 }
 
@@ -101,9 +97,6 @@ a:active {
 }
 
 /* Home Section */
-/* .home_section {
-  
-} */
 
 .home-section1 {
   background-image: url("/image1.jpg");
@@ -184,8 +177,8 @@ a:active {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 70%;
-  margin: 0 auto; /* Center the container */
-  gap: 10px; /* Adjust the gap between grid items as needed */
+  margin: 0 auto;
+  gap: 10px;
 }
 
 .grid-item {
@@ -197,7 +190,7 @@ a:active {
 /* educaton section */
 
 .collapsible-content {
-  display: none; /* Hide the content initially */
+  display: none;
 }
 
 .collapsible-trigger {
