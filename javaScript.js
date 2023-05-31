@@ -51,3 +51,5 @@ function toggleContent() {
 triggers.forEach((trigger) => {
   trigger.addEventListener("click", toggleContent);
 });
+
+// Handling scrolling and transition
